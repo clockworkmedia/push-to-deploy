@@ -10,4 +10,4 @@ pipelines:
         script:
           - apt-get update
           - apt-get -qq install git-ftp
-          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://196.22.142.164/public_html/ergo-mas-lp
+          - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://XXX.XX.XXX.XXX/PATH/TO/PROJECT
